@@ -4,8 +4,10 @@
 Why would you want this? If the program your running is sensitive and you need an alert when it either:\
 A. Crashes, B. Computer restarts/loses power, C. Loses internet
 
-The solution is simple, a C# program (or any program you want) sends heartbeats to AWS.\
-If heartbeats stop coming in after X minutes then an email is sent to you.
+The solution is simple, a C# program (or any program you want) updates a timestamp in a file on AWS S3.\
+Then a Lambda Function written in Python gets triggered by AWS EventBridge every X mins.\
+If the Lambda detects the timeStamp in the file is older then X minutes it means the program has not been reporting in.
+When the Lambda detects there has not been a file update in X mins, it then sends an email to you alerting you your program has gone offline/disconnected/computer restarted etc.
 
 Tools used:\
 Free Tier of AWS, C#, Python
