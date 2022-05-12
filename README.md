@@ -18,4 +18,4 @@ Also listing some videos that could be helpful for this project, if you are new 
 - Setting up event schedular on AWS using EventBride https://www.youtube.com/watch?v=uUhEKtLrGvo 
 - Setting up a Lambda Function on AWS https://www.youtube.com/watch?v=0jsty3XKQYI
 - Setting up a Gmail App Password https://support.google.com/accounts/answer/185833?hl=en
-
+- Setting up Amazon SDK for C# https://aws.amazon.com/sdk-for-net/
