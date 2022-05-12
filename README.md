@@ -12,7 +12,7 @@ Free Tier of AWS, C#, Python
 
 Provided is the python script to be run in the Lambda Function, and the C# function that I am using.
 
-Also listing some videos that could be helpful for this project, if you are new to AWS/Lambda/EventBridge.
+Also listing some links that could be helpful for this project, if you are new to AWS/Lambda/EventBridge/GoogleAppPassword.
 
 ### Links:
 - Setting up event schedular on AWS using EventBride https://www.youtube.com/watch?v=uUhEKtLrGvo 
